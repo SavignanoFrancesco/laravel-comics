@@ -70,6 +70,7 @@ header #header-bottom .container .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 header #header-bottom .container .navbar .logo {
@@ -131,5 +132,11 @@ header #header-bottom .container .search input::placeholder {
 
 header #header-bottom .container .search input:focus {
   outline: none;
+}
+
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  padding: 200px 0;
+  background-size: cover;
 }
 
