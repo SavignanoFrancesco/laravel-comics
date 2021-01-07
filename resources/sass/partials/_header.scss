@@ -13,4 +13,35 @@ header{
             }
         }
     }
+
+    #header-bottom{
+        // padding: $spacing * 0.9;
+        .container{
+            .logo{
+                width: 100px;
+                img{
+                    width: 80%;
+                }
+            }
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    a{
+                        font-size: $font_size * 0.9;
+                        font-family: $text_font;
+                        font-weight: bold;
+                        color: $nav_color;
+                        line-height: 100px;
+                        border: 1px solid black;
+
+                        &.active,&:hover{
+                            color: $main_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
