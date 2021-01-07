@@ -46,6 +46,19 @@ a{
     }
 }
 
+.btn2{
+    background: transparent;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid $main_color;
+    font-size: $font_size * 0.8;
+    &:hover{
+        cursor: pointer;
+        background: $main_color;
+    }
+}
+
 .uppercase{
     text-transform: uppercase;
 }

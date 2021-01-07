@@ -41,9 +41,9 @@
                 <li>
                     <a href="#">
                         <div class="imgs">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-digital-comics.png" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-merchandise.png" alt="">
                         </div>
-                        <h4 class="uppercase">Digital Comics</h4>
+                        <h4 class="uppercase">DC Merchandise</h4>
                     </a>
                 </li>
                 <li>

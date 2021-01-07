@@ -53,6 +53,20 @@ a {
   cursor: pointer;
 }
 
+.btn2 {
+  background: transparent;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #0282f9;
+  font-size: 12.8px;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  background: #0282f9;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -204,6 +218,34 @@ footer #footer-top .container .right {
   background-image: url("/images/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
+}
+
+footer #footer-bottom {
+  padding: 30px 0;
+  background: #1c1c1c;
+}
+
+footer #footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-bottom .container:after {
+  display: none;
+}
+
+footer #footer-bottom .container .socials ul {
+  display: flex;
+  align-items: center;
+}
+
+footer #footer-bottom .container .socials ul > * {
+  margin-left: 10px;
+}
+
+footer #footer-bottom .container .socials ul li h3 {
+  color: #0282f9;
 }
 
 .jumbotron {

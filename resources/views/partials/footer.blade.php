@@ -165,6 +165,44 @@
         </div>
     </div>
     <div id="footer-bottom">
-
+        <div class="container">
+            <div class="btn2">
+                <p class="uppercase">Sign-Up Now!</p>
+            </div>
+            <div class="socials">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3 class="uppercase">Follow us</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('images/footer-facebook.png')}}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('images/footer-twitter.png')}}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('images/footer-youtube.png')}}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('images/footer-pinterest.png')}}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{asset('images/footer-periscope.png')}}" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>

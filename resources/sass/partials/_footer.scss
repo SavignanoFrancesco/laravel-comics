@@ -54,4 +54,30 @@ footer{
             }
         }
     }
+    #footer-bottom{
+        padding: $spacing * 1.5 0;
+        background: $dark_section;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &:after{
+                display: none;
+            }
+            .socials{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    & > *{
+                        margin-left: $spacing * 0.5;
+                    }
+                    li{
+                        h3{
+                            color: $main_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
