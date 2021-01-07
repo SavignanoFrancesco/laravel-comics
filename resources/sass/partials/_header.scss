@@ -1,5 +1,16 @@
 header{
     #header-top{
         background-color: $main_color;
+        .container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            a{
+                color: white;
+                font-size: $font_size * 0.7;
+                padding: ($spacing * 0.3) ($spacing * 0.5);
+                font-weight: bold;
+            }
+        }
     }
 }

@@ -1,5 +1,5 @@
 
-<header>
+<header class="uppercase">
 
     <div id="header-top">
         <div class="container">
@@ -9,7 +9,7 @@
                         <a href="#">DC POWER℠ VISA®</a>
                     </li>
                     <li>
-                        <a href="#">Additional DC Sites</a>
+                        <a href="#">Additional DC Sites▾</a>
                     </li>
                 </ul>
             </div>

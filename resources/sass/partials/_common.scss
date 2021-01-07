@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 ul{
     list-style-type: none;
     li{
@@ -14,6 +22,7 @@ ul{
 a{
     text-decoration: none;
     color: unset;
+    display: inline-block;
 }
 
 .container{
@@ -25,7 +34,6 @@ a{
         clear: both;
     }
 }
-
 
 .uppercase{
     text-transform: uppercase;
