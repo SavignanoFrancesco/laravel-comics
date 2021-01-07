@@ -19,7 +19,7 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <a href="/">
+                    <a href="{{Route('home')}}">
                         <img src="{{asset('images/dc-logo.png')}}" alt="">
                     </a>
                 </div>
