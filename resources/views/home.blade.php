@@ -8,9 +8,16 @@
     @include('partials.jumbotron')
     <div id="comics">
         <div class="container">
-            @foreach ($comics as $comic)
-                <p>{{$comic['title']}}</p>
-            @endforeach
+            <div class="comics-container">
+                @foreach ($comics as $comic)
+                    <a href="#">
+                        <div class="comic">
+                            <img src="{{$comic['thumb']}}" alt="">
+                            <p>{{$comic['series']}}</p>
+                        </div>
+                    </a>
+                @endforeach
+            </div>
         </div>
     </div>
 @endsection
