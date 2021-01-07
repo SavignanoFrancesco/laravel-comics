@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+header #header-top {
+  background-color: #0282f9;
+}
+
