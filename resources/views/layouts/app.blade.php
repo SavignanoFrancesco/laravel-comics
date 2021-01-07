@@ -15,24 +15,11 @@
     </head>
     <body>
 
-        <header>
-            <div id="header-top">
-
-            </div>
-            <div id="header-bottom">
-
-            </div>
-        </header>
+        @include('partials.header')
 
         @yield('content')
 
-        <footer>
-            <div id="footer-top">
+        @include('partials.footer')
 
-            </div>
-            <div id="footer-bottom">
-
-            </div>
-        </footer>
     </body>
 </html>
