@@ -62,12 +62,8 @@ header #header-top .container a {
   font-weight: bold;
 }
 
-header #header-bottom .container .logo {
-  width: 100px;
-}
-
-header #header-bottom .container .logo img {
-  width: 80%;
+header #header-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 header #header-bottom .container .navbar {
@@ -76,17 +72,64 @@ header #header-bottom .container .navbar {
   align-items: center;
 }
 
-header #header-bottom .container .navbar li a {
-  font-size: 14.4px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  color: #464646;
-  line-height: 100px;
-  border: 1px solid black;
+header #header-bottom .container .navbar .logo {
+  width: 80px;
 }
 
-header #header-bottom .container .navbar li a.active,
-header #header-bottom .container .navbar li a:hover {
+header #header-bottom .container .navbar .logo img {
+  width: 100%;
+  padding-top: 5px;
+}
+
+header #header-bottom .container .navbar .menu li {
+  padding: 0 16px;
+}
+
+header #header-bottom .container .navbar .menu li a {
+  font-size: 16px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bolder;
+  color: black;
+  line-height: 100px;
+}
+
+header #header-bottom .container .navbar .menu li a.active,
+header #header-bottom .container .navbar .menu li a:hover {
   color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
+header #header-bottom .container .search {
+  border-bottom: 2px solid #0282f9;
+}
+
+header #header-bottom .container .search input {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  width: 100px;
+  height: 25px;
+}
+
+header #header-bottom .container .search input::-moz-placeholder {
+  font-size: 17.6px;
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+header #header-bottom .container .search input:-ms-input-placeholder {
+  font-size: 17.6px;
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+header #header-bottom .container .search input::placeholder {
+  font-size: 17.6px;
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+header #header-bottom .container .search input:focus {
+  outline: none;
 }
 

@@ -15,30 +15,56 @@ header{
     }
 
     #header-bottom{
-        // padding: $spacing * 0.9;
+        border-bottom: 1px solid rgba(black,0.2);
         .container{
-            .logo{
-                width: 100px;
-                img{
-                    width: 80%;
-                }
-            }
             .navbar{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                li{
-                    a{
-                        font-size: $font_size * 0.9;
-                        font-family: $text_font;
-                        font-weight: bold;
-                        color: $nav_color;
-                        line-height: 100px;
-                        border: 1px solid black;
+                .logo{
+                    width: 80px;
+                    img{
+                        width: 100%;
+                        padding-top: 5px;
+                    }
+                }
+                .menu{
+                    li{
+                        padding: 0 $spacing * 0.8;
+                        a{
 
-                        &.active,&:hover{
-                            color: $main_color;
+                            font-size: $font_size;
+                            font-family: $titles_font;
+                            font-weight: bolder;
+                            color: $nav_color;
+                            line-height: 100px;
+                            // border: 1px solid black;
+
+                            &.active,&:hover{
+                                color: $main_color;
+                                border-bottom: 3px solid $main_color;
+                            }
                         }
+                    }
+                }
+            }
+            .search{
+                border-bottom: 2px solid $main_color;
+
+                input{
+                    background-color: transparent;
+                    border:none;
+                    text-align: right;
+                    // padding:5px 0;
+                    width: 100px;
+                    height: 25px;
+                    &::placeholder{
+                        font-size: $font_size * 1.1;
+                        color: black;
+                        font-family: $titles_font;
+                    }
+                    &:focus{
+                        outline: none;
                     }
                 }
             }

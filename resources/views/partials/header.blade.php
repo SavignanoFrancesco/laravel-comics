@@ -58,7 +58,8 @@
                     </ul>
                 </div>
                 <div class="search">
-
+                    <input type="search" name="" value="" placeholder="Search">
+                    <i class="fas fa-search"></i>
                 </div>
             </nav>
         </div>
