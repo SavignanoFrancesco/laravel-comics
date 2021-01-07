@@ -142,6 +142,70 @@ header #header-bottom .container .search input:focus {
   outline: none;
 }
 
+footer #footer-top {
+  background-image: url("/images/footer-bg.jpg");
+}
+
+footer #footer-top .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #footer-top .container ul {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+footer #footer-top .container:after {
+  display: none;
+}
+
+footer #footer-top .container .left {
+  padding: 20px 0;
+  color: white;
+}
+
+footer #footer-top .container .left span {
+  font-size: 12.8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer #footer-top .container .left .lists-container {
+  display: flex;
+  flex-direction: row;
+}
+
+footer #footer-top .container .left .lists-container span:hover {
+  color: #0282f9;
+}
+
+footer #footer-top .container .left .lists-container > * {
+  margin: 0 15px;
+}
+
+footer #footer-top .container .left .lists-container .double-list {
+  display: flex;
+  flex-direction: column;
+}
+
+footer #footer-top .container .left .credits {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+footer #footer-top .container .left .credits a {
+  color: #0282f9;
+}
+
+footer #footer-top .container .right {
+  width: 40%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .jumbotron {
   background-image: url("/images/jumbotron.jpg");
   padding: 200px 0;
