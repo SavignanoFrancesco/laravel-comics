@@ -3,3 +3,12 @@
     padding: 200px 0;
     background-size: cover;
 }
+
+#comics{
+    padding: ($spacing * 2) 0;
+    background: $dark_section;
+    color: $dark_section_text;
+    .container{
+
+    }
+}

@@ -140,3 +140,9 @@ header #header-bottom .container .search input:focus {
   background-size: cover;
 }
 
+#comics {
+  padding: 40px 0;
+  background: #1c1c1c;
+  color: white;
+}
+
