@@ -41,6 +41,18 @@ a {
   clear: both;
 }
 
+.btn1 {
+  background: #0282f9;
+  color: white;
+  display: inline-block;
+  padding: 6px 40px;
+  font-size: 12.8px;
+}
+
+.btn1:hover {
+  cursor: pointer;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -141,9 +153,27 @@ header #header-bottom .container .search input:focus {
 }
 
 #comics {
-  padding: 40px 0;
+  padding: 20px 0;
   background: #1c1c1c;
   color: white;
+}
+
+#comics .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#comics .container .section-title {
+  align-self: flex-start;
+  padding: 8px 10px;
+  background: #0282f9;
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 #comics .container .comics-container {
@@ -173,5 +203,9 @@ header #header-bottom .container .search input:focus {
 #comics .container .comics-container .comic p {
   padding: 5px 0;
   width: 100%;
+}
+
+#comics .container .btn1 {
+  margin: 10px 0;
 }
 

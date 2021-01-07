@@ -35,6 +35,17 @@ a{
     }
 }
 
+.btn1{
+    background: $main_color;
+    color: white;
+    display: inline-block;
+    padding: 6px 40px;
+    font-size: $font_size * 0.8;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
 .uppercase{
     text-transform: uppercase;
 }

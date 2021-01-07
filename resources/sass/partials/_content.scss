@@ -5,32 +5,49 @@
 }
 
 #comics{
-    padding: ($spacing * 2) 0;
+    padding: ($spacing) 0;
     background: $dark_section;
     color: $dark_section_text;
     .container{
-    .comics-container{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        .comic{
-            width: 180px;
-            margin: 4px;
+        flex-direction: column;
+        align-items: center;
+        .section-title{
+            align-self: flex-start;
+            padding: 8px 10px;
+            background: $main_color;
+            color: white;
+            display: inline-block;
+            position: relative;
+            top: -20px;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        .comics-container{
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-            img{
-                width: 100%;
-                height: 180px;
-                object-fit: cover;
-                object-position: top;
-            }
-            p{
-                padding: $spacing * 0.25 0;
-                width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .comic{
+                width: $homepage_comics_cover;
+                margin: 4px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                img{
+                    width: 100%;
+                    height: $homepage_comics_cover;
+                    object-fit: cover;
+                    object-position: top;
+                }
+                p{
+                    padding: $spacing * 0.25 0;
+                    width: 100%;
+                }
             }
         }
-    }
+        .btn1{
+            margin: 10px 0;
+        }
     }
 }
