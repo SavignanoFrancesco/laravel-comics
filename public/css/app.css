@@ -74,10 +74,6 @@ header #header-top .container a {
   font-weight: bold;
 }
 
-header #header-bottom {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 header #header-bottom .container .navbar {
   display: flex;
   justify-content: space-between;
@@ -109,7 +105,7 @@ header #header-bottom .container .navbar .menu li a {
 header #header-bottom .container .navbar .menu li a.active,
 header #header-bottom .container .navbar .menu li a:hover {
   color: #0282f9;
-  border-bottom: 3px solid #0282f9;
+  border-bottom: 3.5px solid #0282f9;
 }
 
 header #header-bottom .container .search {
@@ -207,5 +203,41 @@ header #header-bottom .container .search input:focus {
 
 #comics .container .btn1 {
   margin: 10px 0;
+}
+
+#shopping-links {
+  background: #0282f9;
+}
+
+#shopping-links .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#shopping-links .container ul li {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+#shopping-links .container ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#shopping-links .container ul li a .imgs {
+  height: 60px;
+  width: 60px;
+}
+
+#shopping-links .container ul li a .imgs img {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 5px;
 }
 

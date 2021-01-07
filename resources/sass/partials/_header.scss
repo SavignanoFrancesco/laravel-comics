@@ -15,7 +15,7 @@ header{
     }
 
     #header-bottom{
-        border-bottom: 1px solid rgba(black,0.2);
+        // border-bottom: 0.2px solid rgba(black,0.2);
         .container{
             .navbar{
                 display: flex;
@@ -43,7 +43,7 @@ header{
 
                             &.active,&:hover{
                                 color: $main_color;
-                                border-bottom: 3px solid $main_color;
+                                border-bottom: 3.5px solid $main_color;
                             }
                         }
                     }

@@ -51,3 +51,35 @@
         }
     }
 }
+
+#shopping-links{
+    background: $main_color;
+    .container{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            li{
+                display: flex;
+                align-items: center;
+                padding: $spacing * 2;
+                a{
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    .imgs{
+                        height: 60px;
+                        width: 60px;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            display: inline-block;
+                            object-fit: contain;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
