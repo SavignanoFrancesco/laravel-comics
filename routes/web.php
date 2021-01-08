@@ -20,6 +20,21 @@ Route::get('/', function () {
     return view('home',$data);
 })->name('home');
 
+Route::get('/comic/{id}', function($id) {
+
+    $comics = config('comics');
+
+    if(array_key_exists($id, $comics)) {
+        $comic = $comics[$id];
+        $data = [
+            'comic' => $comic
+        ];
+        return view('details', $data);
+    }
+    abort(404);
+    
+})->name('details');
+
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');

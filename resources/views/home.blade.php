@@ -12,8 +12,8 @@
                 <h2 class="uppercase">Current Series</h2>
             </div>
             <div class="comics-container">
-                @foreach ($comics as $comic)
-                    <a href="#">
+                @foreach ($comics as $id => $comic)
+                    <a href="{{Route('details', ['id' => $id])}}">
                         <div class="comic">
                             <img src="{{$comic['thumb']}}" alt="">
                             <p>{{$comic['series']}}</p>
