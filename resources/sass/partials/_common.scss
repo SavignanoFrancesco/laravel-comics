@@ -34,6 +34,15 @@ a{
         clear: both;
     }
 }
+.details-container{
+    max-width: 1000px;
+    margin: auto;
+    &::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
 
 .btn1{
     background: $main_color;
