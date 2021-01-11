@@ -96,15 +96,15 @@
             top: 70px;
             border: 1px solid white;
             img{
-                display: block;
+                display: inline-block;
             }
             .comic-book{
                 position: absolute;
-                top: 0;
                 color: white;
-                background: lighten($main_color, 20%);
+                // background: lighten($main_color, 20%);
+                background: #36bae0;
                 padding: 2px 6px;
-                top:-1px;
+                top: 0px;
                 left: 0px;
                 font-size: $font_size * 0.9;
             }
@@ -112,10 +112,12 @@
                 position: absolute;
                 bottom: 0px;
                 color: white;
-                background: lighten($main_color, 20%);
+                background: #36bae0;
+                // background: lighten($main_color, 20%);
                 padding: 2px 6px;
-                right: 0px;
-                left: 0px;
+                // right: 0px;
+                // left: 0px;
+                width: 100%;
                 text-align: center;
                 font-size: $font_size * 0.9;
             }
@@ -127,13 +129,14 @@
     padding: $spacing * 2 0;
     @include flexbox(row,space-between,center);
     #left-box{
-        padding: $spacing 0;
+        padding: $spacing $spacing * 0.5;
         @include flexbox(column,space-around,flex-start);
         & > *{
             margin: 5px 0;
         }
         h1{
-            color: darken($main_color, 20%);
+            color: #003f5e;
+            font-size: $font_size * 1.9;
         }
         p{
             font-size: $font_size * 0.9;
@@ -249,6 +252,7 @@
         .series{
             a{
                 font-size: $font-size * 0.8;
+                line-height: 15px;
             }
             & > *{
                 width: 50%;
